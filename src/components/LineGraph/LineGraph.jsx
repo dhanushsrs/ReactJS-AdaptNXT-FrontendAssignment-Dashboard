@@ -37,21 +37,23 @@ const LineGraph = () => {
       {
         label: "Orders",
         data: [4, 2, 2],
-        borderColor: "rgba(153, 102, 255, 1)",
-        backgroundColor: "rgba(153, 102, 255, 1)",
+        borderColor: "orange",
+        backgroundColor: "orange",
         yAxisID: "y2", // Linked to the second y-axis
         fill: false,
         pointHoverRadius: 8,
+        tension: 0.4,
       },
 
       {
         label: "Sales",
         data: [1400, 800, 420],
-        borderColor: "rgba(75, 192, 192, 1)",
-        backgroundColor: "rgba(75, 192, 192, 1)",
+        borderColor: "green",
+        backgroundColor: "green",
         yAxisID: "y1", // Linked to the first y-axis
         fill: false,
         pointHoverRadius: 8,
+        tension: 0.4,
       },
     ],
   };
@@ -81,7 +83,7 @@ const LineGraph = () => {
       x: {
         type: "category",
         title: {
-          display: true,
+          display: false,
           text: "Week",
         },
       },
@@ -89,7 +91,7 @@ const LineGraph = () => {
         type: "linear",
         position: "left",
         title: {
-          display: true,
+          display: false,
           text: "Sales",
         },
         min: 0,
@@ -105,7 +107,7 @@ const LineGraph = () => {
         type: "linear",
         position: "right",
         title: {
-          display: true,
+          display: false,
           text: "Orders",
         },
         min: 0,
