@@ -1,0 +1,43 @@
+.pie-chart-heading {
+  display: flex;
+  align-items: center;
+}
+
+.sales-portion {
+  padding: 16px;
+  width: 100%;
+  max-width: 320px;
+}
+
+.sales-portion h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.chart-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.legend {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 8px;
+}

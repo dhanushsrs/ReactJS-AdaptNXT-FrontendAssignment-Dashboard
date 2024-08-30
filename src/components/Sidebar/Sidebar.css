@@ -1,0 +1,26 @@
+.sidebar-container {
+  width: 16rem;
+  background-color: white;
+  color: #2d3748;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-item {
+  padding: 16px;
+  background-color: transparent;
+  color: inherit;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar-item:hover {
+  background-color: #f3e8ff;
+  color: #6b46c1;
+}
+
+.sidebar-item.selected {
+  background-color: #ebbcd9;
+  color: #e449a8;
+  font-weight: bold;
+}

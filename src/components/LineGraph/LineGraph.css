@@ -1,0 +1,16 @@
+.line-graph {
+  padding: 16px;
+  width: 100%;
+}
+
+.line-graph-heading {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .line-graph {
+    max-width: 320px;
+    width: 100%;
+  }
+}

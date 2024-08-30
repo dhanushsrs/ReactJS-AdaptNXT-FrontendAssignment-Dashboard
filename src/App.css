@@ -1,0 +1,10 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.inside-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
